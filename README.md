@@ -1,12 +1,12 @@
 # DRjCC
-Clustering scRNA-seq by joint dimension reduction and clustering
+Clustering scRNA-seq by joint dimension reduction and cell clustering
 
 
-Overview: This is code to do joint learning dimension reduction and clustering of single-cell RNA-seq data given in the "experiment" section of the paper: Wenming Wu, Xiaoke Ma*. "Joint learning dimension reduction and clustering of single-cell RNA-seq data." The coding here is a generalization of the algorithm given in the paper
+Overview: This is code to do joint learning dimension reduction and cell clustering of single-cell RNA-seq data given in the "experiment" section of the paper: Wenming Wu, Xiaoke Ma*. "Joint learning dimension reduction and cell clustering of single-cell RNA-seq data." The coding here is a generalization of the algorithm given in the paper
 
-Files: drjnmf.m - The main function.
+Files: drjcc.m - The main function.
 
-main_drjnmf.m - A script with a real scRNA-seq data to show how to run the code.
+main_drjcc.m - A script with a real scRNA-seq data to show how to run the code.
 
 Data_zheng.mat - A real scRNA-seq data used in the cell type clustering example. We retain the genes that are expressed in at least 10 cells for the dataset. The data Zheng dataset contains 500 human peripheral blood mononuclear cells (PBMCs) sequenced using GemCode platform, which consists of three cell types, CD56+ natural killer cells, CD19+ B cells and CD4+/CD25+ regulatory T cells.
 
