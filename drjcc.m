@@ -1,4 +1,4 @@
-function [DT_final,V_final,B_final, F_final] = drjnmf(X, k1, k2, W, options)
+function [DT_final,V_final,B_final, F_final] = drjcc(X, k1, k2, W, options)
 %
 % where
 %   X

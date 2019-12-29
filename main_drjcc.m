@@ -16,7 +16,7 @@
     %==============GNMF=================
     options = [];
     k1=500; k2=3;%%%%%%%%%%%%%%k1 is the number of feature for dimension reduction, k2 is the number of features for clustering in NMF
-    [DT_final,V_final,B_final, F_final] = drjnmf(X, k1, k2, W, options);
+    [DT_final,V_final,B_final, F_final] = drjcc(X, k1, k2, W, options);
 %%%%%%%%%%% Clustering cell type label
     for e=1:size(F_final,2)
     v=F_final(:,e);
