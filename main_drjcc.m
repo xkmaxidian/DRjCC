@@ -14,8 +14,9 @@
 
     clear options;
     options = [];
-    k1=100; k2=3;
-    %%%%%%%%%%%%%%k1 is the number of feature for dimension reduction,
+    k1=50; k2=3;
+    %%%%%%%%%%%%%%k1 is the number of feature for dimension reduction,for
+    %%%%%%%%%%%%%%example: 20,50, 100, 500
     %%%%%%%%%%%%%%k2 is the number of features for clustering in NMF(the number of cluster)
     [Z_final,A_final,B_final, F_final] = drjcc(X, k1, k2, W, options); %% Call the main function to solve the variables
 %%%%%%%%%%% Clustering cell type label
